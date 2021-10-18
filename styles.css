@@ -1,0 +1,140 @@
+.nav-background {
+  background-color: rgb(71, 71, 71);
+}
+
+/* #index_banner {
+  background-image: url("/img/ba1.jpg");
+  background-size: cover;
+  background-position: center;
+  /* filter: brightness(50%); */
+/* }  */
+
+.nav-item-list {
+  padding-top: 1%;
+}
+
+.section-honolulu {
+  padding-left: 0%;
+  padding-right: 0%;
+}
+
+.div-honolulu {
+  padding-left: 1%;
+  background-color: rgb(71, 71, 71);
+}
+
+.text-honolulu {
+  font-size: 0.8rem;
+}
+
+.text-area-form {
+  margin-left: 1%;
+  margin-bottom: 10%;
+  font-weight: lighter;
+  font-size: 1.2rem;
+}
+
+.btn-send {
+  color: white;
+  background-color: yellowgreen;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.form-proyect {
+  width: 50%;
+}
+
+.button-form {
+  width: 100%;
+}
+
+.footer-back {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 81, 121, 1) 34%
+  );
+}
+.footer-text {
+  font-size: 0.8rem;
+  align-items: center;
+}
+
+#index_banner {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  background-image: url("/img/ba1.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+#index_banner::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#banner-text-p {
+  color: #ffffff;
+  width: 720px;
+  margin-left: -15%;
+  text-align: right;
+}
+
+@media screen and (max-width: 600px) {
+  /* For mobile phones: */
+
+  #index_banner {
+    height: auto;
+    object-fit: cover;
+  }
+
+  #banner-text-p {
+    color: #ffffff;
+    width: 100%;
+    margin-left: 0%;
+    text-align: center;
+  }
+
+  .orador-mob {
+    margin-right: auto !important;
+    margin-bottom: 0.5rem;
+  }
+  .oradores-mob {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    align-items: center;
+  }
+
+  .card-mob {
+    margin-bottom: 1rem;
+  }
+  .honolulu-mob {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .honolulu-mob-item {
+    width: 100%;
+  }
+  .text-area-form {
+    font-size: 1rem;
+  }
+  .footer-mob {
+    display: block !important;
+    margin-left: 5%;
+  }
+}
